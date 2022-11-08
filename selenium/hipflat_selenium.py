@@ -25,18 +25,34 @@ def is_next_page(driver):
 
 def scrap_detail(driver, show_output=False):
     # Create dataframe
-    header = ['dev', 'address', 'district', 'sale_price', 'rent_price', 'bedroom', 'bathroom', 'internal_area',
-     'external_features_key', 'exteranal_feature_values', 'description', 'detail', 'elevetor', 'parking', 
-     'security', 'cctv' , 'pool' ,'sauna' ,'gym', 'garden_bbq', 'playground', 'shop_on_premise', 'restaurant_on_premise', 
-     'wifi', 'neighbor_cats', 'neighbor_names', 'neighbor_distances', 'asking_price', 'asking_price_change_quater', 'asking_price_change_year', 
+    header = ['dev', 'address', 'district', 'sale_price', 'rent_price', 'internal_feature_keys', 'internal_feature_values',
+     'external_feature_keys', 'exteranal_feature_values', 'description', 'detail', 
+     'amenity_keys', 'amenity_values',
+     'neighbor_cats', 'neighbor_names', 'neighbor_distances', 'asking_price', 'asking_price_change_quater', 'asking_price_change_year', 
      'gross_rental_yield', 'rental_price_change_year']
     df = pd.DataFrame(columns=header)
 
     # Inner loop - get detail from each page
-    condo_dev = driver.find_element(By.CLASS_NAME, "project-header-name").text
-    condo_address = driver.find_element(By.XPATH, "//*[@*='project-header-title']//span[1]").text
-    condo_district = driver.find_element(By.CSS_SELECTOR, ".breadcrumb li:nth-child(2) span").text
-    condo_sale_price = driver.find_element(By.XPATH, "//li[@class='listing-essentials__price-item'][div[text()='For sale']]/span[@class='money']").get_attribute("data-money")
+
+    try:
+        condo_dev = driver.find_element(By.CLASS_NAME, "project-header-name").text
+    except:
+        condo_dev = None
+    
+    try:
+        condo_address = driver.find_element(By.XPATH, "//*[@*='project-header-title']//span[1]").text
+    except:
+        condo_address = None
+    
+    try:
+        condo_district = driver.find_element(By.CSS_SELECTOR, ".breadcrumb li:nth-child(2) span").text
+    except:
+        condo_district = None
+    
+    try:
+        condo_sale_price = driver.find_element(By.XPATH, "//li[@class='listing-essentials__price-item'][div[text()='For sale']]/span[@class='money']").get_attribute("data-money")
+    except:
+        condo_sale_price = None
     
     # Get rent price
     try:
@@ -66,8 +82,15 @@ def scrap_detail(driver, show_output=False):
         external_feature_keys.append(feature.text)
 
     # Get condon description and detail
-    condo_description = driver.find_element(By.XPATH, "//div[@class='property-description__content']/p[1]").text
-    condo_detail = driver.find_element(By.XPATH, "//div[@class='property-description__content']/p[2]").text
+    try:
+        condo_description = driver.find_element(By.XPATH, "//div[@class='property-description__content']/p[1]").text
+    except:
+        condo_description = None
+
+    try:
+        condo_detail = driver.find_element(By.XPATH, "//div[@class='property-description__content']/p[2]").text
+    except:
+        condo_detail = None
 
     # Get condo amenities
     condo_amenity_values = []
@@ -89,23 +112,27 @@ def scrap_detail(driver, show_output=False):
         condo_neighbors_distances.append(driver.find_elements(By.XPATH, "//div[@class='media neighborhood-destination']//small")[i].text)
 
     # Get market stats
-    condo_stats = driver.find_elements(By.XPATH, "//ul[@class='market-data']//div[@class='indicator__amount']")
-    condo_stat_asking_price_sqm = driver.find_element(By.XPATH, "//ul[@class='market-data']//span[@class='number']").text
-    condo_stat_asking_price_change_quarter = condo_stats[1].text
-    condo_stat_asking_price_change_year = condo_stats[2].text
-    condo_stat_gross_rental_yield = condo_stats[3].text
-    condo_stat_rental_price_change_year = condo_stats[4].text
-
-
+    try:
+        condo_stats = driver.find_elements(By.XPATH, "//ul[@class='market-data']//div[@class='indicator__amount']")
+        condo_stat_asking_price_sqm = driver.find_element(By.XPATH, "//ul[@class='market-data']//span[@class='number']").text
+        condo_stat_asking_price_change_quarter = condo_stats[1].text
+        condo_stat_asking_price_change_year = condo_stats[2].text
+        condo_stat_gross_rental_yield = condo_stats[3].text
+        condo_stat_rental_price_change_year = condo_stats[4].text
+    except:
+        condo_stat_asking_price_sqm = None
+        condo_stat_asking_price_change_quarter = None
+        condo_stat_asking_price_change_year = None
+        condo_stat_gross_rental_yield = None
+        condo_stat_rental_price_change_year = None
 
      # Create list to store each row data
     append_data = [condo_dev, condo_address, condo_district, condo_sale_price, condo_rent_price, 
-    internal_feature_values[0], internal_feature_values[1], internal_feature_values[2],
+    "|".join(map(str, internal_feature_keys)), "|".join(map(str, internal_feature_values)),
     "|".join(map(str, external_feature_keys)), "|".join(map(str, external_feature_values)),
-    condo_description, condo_detail, condo_amenity_values[0], condo_amenity_values[1], condo_amenity_values[2], 
-    condo_amenity_values[3], condo_amenity_values[4], condo_amenity_values[5], condo_amenity_values[6], 
-    condo_amenity_values[7], condo_amenity_values[8], condo_amenity_values[9], condo_amenity_values[10], 
-    condo_amenity_values[11], "|".join(map(str, condo_neighbors_cats)), "|".join(map(str, condo_neighbors_names)), 
+    condo_description, condo_detail, 
+    "|".join(map(str, condo_amenity_keys)), "|".join(map(str, condo_amenity_values)),
+    "|".join(map(str, condo_neighbors_cats)), "|".join(map(str, condo_neighbors_names)), 
     "|".join(map(str, condo_neighbors_distances)), condo_stat_asking_price_sqm, condo_stat_asking_price_change_quarter,
     condo_stat_asking_price_change_year, condo_stat_gross_rental_yield, condo_stat_rental_price_change_year
     ]
@@ -166,7 +193,7 @@ if __name__ == "__main__":
     options.add_argument("--window-size=1920,1080")
 
     # Open website via undetected_chromedriver
-    driver = uc.Chrome(options=options)
+    driver = uc.Chrome(options=options, version_main=102)
 
     # Test paths
     # driver.get("https://www.hipflat.co.th/en/listings/bangkok-condo-yzwcpndw")
@@ -182,14 +209,12 @@ if __name__ == "__main__":
     # Store ID of the original window
     original_window = driver.current_window_handle
 
-    # Get bottons link to detail pages
-    detail_pages = driver.find_elements(By.XPATH, "//a[@class='btn btn-sm btn-link']")
 
     # Create template dataframe
-    header = ['dev', 'address', 'district', 'sale_price', 'rent_price', 'bedroom', 'bathroom', 'internal_area',
-     'external_features_key', 'exteranal_feature_values', 'description', 'detail', 'elevetor', 'parking', 
-     'security', 'cctv' , 'pool' ,'sauna' ,'gym', 'garden_bbq', 'playground', 'shop_on_premise', 'restaurant_on_premise', 
-     'wifi', 'neighbor_cats', 'neighbor_names', 'neighbor_distances', 'asking_price', 'asking_price_change_quater', 'asking_price_change_year', 
+    header = ['dev', 'address', 'district', 'sale_price', 'rent_price', 'internal_feature_keys', 'internal_feature_values',
+     'external_feature_keys', 'exteranal_feature_values', 'description', 'detail', 
+     'amenity_keys', 'amenity_values',
+     'neighbor_cats', 'neighbor_names', 'neighbor_distances', 'asking_price', 'asking_price_change_quater', 'asking_price_change_year', 
      'gross_rental_yield', 'rental_price_change_year']
     template_df = pd.DataFrame(columns=header)
 
@@ -197,8 +222,11 @@ if __name__ == "__main__":
 
     next_page = True
     page_counter = 1
+    detail_counter = 1
     # Iterate main pages
     while next_page:
+        # Get bottons link to detail pages
+        detail_pages = driver.find_elements(By.XPATH, "//a[@class='btn btn-sm btn-link']")
         # Iterate each detail page
         for page in detail_pages: 
             page.click()
@@ -221,21 +249,28 @@ if __name__ == "__main__":
             #Switch back to the old tab or window
             driver.switch_to.window(original_window)
 
-            # Save file if pages = 10
-            if page_counter % 10 == 0:
-                iterate_df.to_csv(f"./scrape_data/hipflat_page_{page_counter-9}_{page_counter}.csv", index=False)
-                iterate_df = template_df.copy()
-            else:
-                iterate_df = pd.concat(iterate_df, result_df)
+            # Append data to dataframe
+            iterate_df = pd.concat([iterate_df, result_df], ignore_index=True)
+            print("Scraped item:", detail_counter)
+            detail_counter += 1
 
-            # Check if next page exists
-            next_page = is_next_page(driver)
+        # Save file for every page
+        full_path = "D:\TDA\DSI\projects\condominium_price_prediction\selenium\scrape_data"
+        iterate_df.to_csv(f"{full_path}\\hipflat_page{detail_counter}.csv", index=False)
+        iterate_df = template_df.copy()
+        print(f"Completed page1 {page_counter}........")
+
+        # Check if next page exists then go to next page
+        if is_next_page(driver):
+            next_page = True
             page_counter += 1
-
-            # Sleep before go to next page
+            driver.find_element(By.XPATH, "//a[@data-role='next']").click()
+            # Wait until next page loded
             time.sleep(5)
+        else:
+            next_page = False
 
-    # Save last file
-    iterate_df.to_csv(f"./scrape_data/hipflat_page_{page_counter-page_counter%10}_{page_counter-1}.csv", index=False)
+
+    print(f"Completed the last page. Time to make models!!!!!!!!!!!1")
 
     driver.quit()
