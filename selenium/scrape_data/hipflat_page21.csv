@@ -1,0 +1,268 @@
+dev,address,district,sale_price,rent_price,internal_feature_keys,internal_feature_values,external_feature_keys,exteranal_feature_values,description,detail,amenity_keys,amenity_values,neighbor_cats,neighbor_names,neighbor_distances,asking_price,asking_price_change_quater,asking_price_change_year,gross_rental_yield,rental_price_change_year
+Beverly 33,"Soi Daeng Udom, Khlong Toei Nuea, Vadhana, Bangkok 10110",Watthana,6583442.0,,Bedrooms|Bathrooms|Internal area,1|1|47.5,Floors|Towers|Project Area|Year built,"8|1|1,232 m2|2012",Beverly 33 Sukhumvit 33 condo for sale in Bangkok near BTS Phrom Phong was constructed in 2012.,"This Bangkok condo in Sukhumvit 33 comprises a single building having 99 apartments on 8 floors.
+All apartments are 1-bedroom units of around 40 sqm.
+Facilities at Beverly 33 Sukhumvit 33 condo for sale in Bangkok CBD",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|False|False|False|False|False,marker marker-bts|marker marker-bts|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Phrom Phong|Asok|Sukhumvit|Asok 3 Toll Plaza|Asok 4 Toll Plaza|Asok 1 Toll Plaza,660 m / 8 minutes by foot|1.2 km / 9 minutes by car|1.4 km / 12 minutes by car|2.8 km / 19 minutes by car|2.8 km / 19 minutes by car|2.9 km / 12 minutes by car,"163,696",0,7.34,4.65,33.68
+Oriental Towers,"Soi Charoen Chai, Khlong Toei Nuea, Vadhana, Bangkok 10110",Watthana,33703013.0,,Bedrooms|Bathrooms|Internal area,1|1|445.09,Floors|Towers|Year built,33|1|1995,"Oriental Towers Ekkamai 12 condo for sale in Bangkok was built in 1995.
+This older Bangkok condominium comprises a single building, having 70 larger apartments on 33 floors.
+Apartment types","unit types: 3-4 bedrooms
+unit sizes: 315 - 350 sqm",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|False|False|False|False,marker marker-bts|marker marker-bts|marker marker-expressway|marker marker-bts|marker marker-expressway|marker marker-expressway,Ekkamai|Thong Lo|Phatthanakan 1 Toll Plaza|Phra Khanong|Phatthanakan 2 Toll Plaza|Phra Khanong Toll Plaza,1.6 km / 11 minutes by car|1.9 km / 8 minutes by car|2.1 km / 9 minutes by car|2.4 km / 8 minutes by car|2.7 km / 8 minutes by car|3.2 km / 10 minutes by car,"96,597",0,2.19,2.92,2.62
+Saranjai Mansion,"Sukhumvit Soi 6, Khwaeng Khlong Toei, Khet Khlong Toei",Khlong Toei,5400000.0,,Bedrooms|Bathrooms|Internal area,1|1|63,Floors|Towers|Year built,23|1|1992,This apartment on Sukhumvit 6 with 1 bedroom is available on a mid-floor at Saranjai Mansion condominium near BTS Nana,"1 bedroom
+1 bathroom
+balcony
+area: 63 sqm
+mid-floor: 10+
+facing direction: South
+car parking slot
+fully furnished – classic style
+fully equipped kitchen
+full set of electrical appliances including flat TV, refrigerator, washing machine, and microwave",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|False|False|True|False|False,marker marker-bts|marker marker-expressway|marker marker-bts|marker marker-bts|marker marker-expressway|marker marker-expressway,Nana|Sukhumvit Toll Plaza|Asok|Phloen Chit|Phetchaburi Toll Plaza|Rama 4-2 Toll Plaza,270 m / 3 minutes by foot|820 m / 5 minutes by car|880 m / 13 minutes by car|920 m / 6 minutes by car|1.8 km / 13 minutes by car|3.1 km / 13 minutes by car,"86,923",0,7.11,4.35,-6.8
+CitiSmart Sukhumvit 18,"Soi Sukhumvit 18, Khwaeng Khlong Toei, Khet Khlong Toei",Khlong Toei,9800000.0,,Bedrooms|Bathrooms|Internal area,2|2|73,Floors|Towers|Year built,21|1|2005,This 2-bedroom condo near Asoke BTS is available on a mid-floor at CitiSmart Sukhumvit 18 condominium,"2-bedroom
+2-bathroom
+balcony
+area: 73 sqm
+mid floor: 10+
+facing direction: West
+car parking slot
+fully and nicely furnished
+equipped kitchen
+full set of electrical appliances: flat TV, refrigerator, washing machine, microwave
+foreign freehold ownership quota is available",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|True|True|False|True,marker marker-bts|marker marker-mrt|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Asok|Sukhumvit|Phrom Phong|Sukhumvit Toll Plaza|Rama 4-1 Toll Plaza|Rama 4-2 Toll Plaza,390 m / 5 minutes by foot|530 m / 7 minutes by foot|980 m / 6 minutes by car|1.7 km / 8 minutes by car|3.1 km / 9 minutes by car|3.2 km / 13 minutes by car,"148,877",0,0.47,4.55,4.83
+,,Khlong Toei,6698347.0,,Bedrooms|Bathrooms|Internal area,1|1|76.06,,,"59 Heritage Sukhumvit 59 condo for sale near BTS Thong Lo was built by Thai Factory Development and completed in 2009.
+This Bangkok apartment comprises 2 towers (12 and 27 floors) having 226 apartments in total.
+Facilities at 59 Heritage condo for sale in Bangkok
+59 Heritage condominium has a great variety of facilities including","swimming pool
+garden
+gym/fitness club
+sauna
+security gate
+CCTV
+24/7 reception desk
+parking area
+Wi-Fi in the public area
+on-site shop",,,,,,,,,,
+KEYNE BY SANSIRI,"140 Sukhumvit Rd, Khlong Toei, Khet Khlong Toei",Khlong Toei,11310348.0,,Bedrooms|Bathrooms|Internal area,1|1|77.28,Floors|Towers|Project Area,"28|1|2,704 m2","Keyne by Sansiri Thonglor luxury condo for sale on Sukhumvit Road with direct access to BTS Thonglor was developed by Sansiri Public Company in 2013.
+This luxury Bangkok condo for sale on Sukhumvit comprises a single building, having 208 apartments on 28 floors.
+Sansiri is also known as a developer behind Baan Siri 24, Baan Siri Sukhumvit 10, and many other condominiums in Bangkok.
+Facilities at Keyne by Sansiri Thonglor luxury condo for sale","direct access from BTS Thonglor
+elevator
+parking
+24-hours security and 24/7 security guards and reception desk
+key card with access to specific floor
+CCTV
+swimming pool
+gym room
+garden area
+multi-purpose room
+steam",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|False|False|False|True,marker marker-bts|marker marker-bts|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Thong Lo|Phrom Phong|Ekkamai|At Narong Toll Plaza|Tha Ruea 2 Toll Plaza|Tha Ruea 1 Toll Plaza,220 m / 3 minutes by foot|1000 m / 5 minutes by car|1.1 km / 6 minutes by car|2.8 km / 8 minutes by car|3.1 km / 9 minutes by car|3.3 km / 10 minutes by car,"208,822",0,-4.8,4.47,6.58
+Liberty Park 2,"55/1-55/137 Soi Sukhumvit 11, Khwaeng Khlong Toei Nuea, Khet Watthana",Watthana,11200000.0,,Bedrooms|Bathrooms|Internal area,2|3|120,Floors|Towers|Year built,23|1|1998,This condo in Nana features a beautiful view from a high floor at Liberty Park 2 condominium on Sukhumvit 11,"good-sized living room
+2-bedroom
+3-bathroom
+2 balconies
+maids' quarter
+facing direction: North-West with a beautiful view
+high floor
+separated and equipped kitchen
+fully furnished
+full set of electrical appliances
+foreign freehold quota is available",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|False|False|False|False|False,marker marker-bts|marker marker-expressway|marker marker-bts|marker marker-expressway|marker marker-mrt|marker marker-expressway,Nana|Sukhumvit Toll Plaza|Phloen Chit|Phetchaburi Toll Plaza|Phetchaburi|Asok 2 Toll Plaza,920 m / 12 minutes by car|1.2 km / 8 minutes by car|1.2 km / 9 minutes by car|1.3 km / 15 minutes by car|1.9 km / 10 minutes by car|2.5 km / 12 minutes by car,"71,199",0,5.31,5.16,-6.42
+LIV@49,"9 Klang Alley, Khwaeng Khlong Tan Nuea, Khet Watthana",Khlong Toei,7000000.0,,Bedrooms|Bathrooms|Internal area,1|1|38.5,Floors|Towers|Project Area|Year built,"8|2|3,092 m2|2016","This condo on Sukhumvit 49 with 1 bedroom is available at Liv@49 condominium.
+This very new apartment for sale Thong Lo - this 1-bedroom flat is fully furnished in Japanese modern style.","1 bedroom
+1 bathroom
+38.5 sqm
+low floor - the building is low-rise
+fixed parking slot
+balcony
+facing East
+fully furnished
+open kitchen
+full set of electrical appliances",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|True|False|True|False,marker marker-bts|marker marker-bts|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Thong Lo|Phrom Phong|Ekkamai|At Narong Toll Plaza|Tha Ruea 2 Toll Plaza|Tha Ruea 1 Toll Plaza,700 m / 9 minutes by foot|990 m / 9 minutes by car|1.6 km / 8 minutes by car|3.3 km / 11 minutes by car|3.4 km / 13 minutes by car|3.5 km / 13 minutes by car,"180,473",0,-0.17,4.91,5.87
+The Line Asoke - Ratchada,"QH47+78R, Din Daeng, Bangkok 10400",Huai Khwang,8900000.0,,Bedrooms|Bathrooms|Internal area,2|1|47.5,Floors|Towers|Year built,38|1|2019,This new 2-bedroom condo is available now in The Line ------Ratchada condominium,"2 bedroom
+1 bathroom
+47.5 sqm
+balcony facing East
+parking slot
+Fully furnished
+Fully equipped kitchen with electrical appliances
+low floor - 10-",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|True|True|True|True,marker marker-mrt|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway|marker marker-mrt,Phraram Kao 9|Phra Ram 9|Asok 2 Toll Plaza|Asok 3 Toll Plaza|Asok 4 Toll Plaza|Phetchaburi,990 m / 14 minutes by car|1 km / 14 minutes by car|1.2 km / 14 minutes by car|1.4 km / 13 minutes by car|1.4 km / 14 minutes by car|1.6 km / 15 minutes by car,"180,368",0,-6.38,4.01,3.61
+The Line Asoke - Ratchada,"QH47+78R, Din Daeng, Bangkok 10400",Huai Khwang,7000000.0,,Bedrooms|Bathrooms|Internal area,1|1|35,Floors|Towers|Year built,38|1|2019,This condo near MRT Rama 9 is available now in The Line ------Ratchada condominium.,"1-bedroom
+1-bathroom
+balcony
+area: 35 sqm
+mid-floor: 10+
+car parking slot
+fully furnished: modern style
+fully equipped kitchen
+full set of electrical appliances: flat TV, refrigerator, washing machine, microwave",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|True|True|True|True,marker marker-mrt|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway|marker marker-mrt,Phraram Kao 9|Phra Ram 9|Asok 2 Toll Plaza|Asok 3 Toll Plaza|Asok 4 Toll Plaza|Phetchaburi,990 m / 14 minutes by car|1 km / 14 minutes by car|1.2 km / 14 minutes by car|1.4 km / 13 minutes by car|1.4 km / 14 minutes by car|1.6 km / 15 minutes by car,"180,368",0,-6.38,4.01,3.61
+,,Watthana,6000000.0,,Bedrooms|Bathrooms|Internal area,2|1|60,,,This condo in Sukhumvit 21 is available for sale with a tenant on a high floor at Asoke Place condominium,"this condo is for sale with a tenant: immediate income
+2 bedrooms
+1 bathroom
+balcony
+area: 60 sqm
+high floor: 20+
+facing direction: North with a nice view
+fixed parking slot
+fully furnished
+fully equipped kitchen
+full set of electrical appliances
+foreign freehold ownership quota",,,,,,,,,,
+The Concord,"Soi Ruam Chai, Khlong Tan Nuea, Vadhana, Bangkok 10110",Watthana,24000000.0,,Bedrooms|Bathrooms|Internal area,3|3|200,Floors|Towers|Year built,15|1|1993,This large condo may need renovation. It's located near NIST school in The Concord condominium on Sukhumvit 15,"this condo requires a full renovation
+corner unit
+3-bedroom
+3-bathroom
+large balcony
+large stock room
+low-mid floor
+facing directions: North and East with a view of Wattana Witthaya Academy and NIST School
+separated kitchen
+some furniture is available",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|True|False|False|False|True,marker marker-bts|marker marker-mrt|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Nana|Phetchaburi|Sukhumvit|Sukhumvit Toll Plaza|Phetchaburi Toll Plaza|Asok 2 Toll Plaza,850 m / 9 minutes by car|990 m / 7 minutes by car|1 km / 4 minutes by car|1.4 km / 9 minutes by car|1.6 km / 12 minutes by car|1.7 km / 9 minutes by car,"120,000",0,10.19,3,-0.33
+Yada Residential,"Soi Phrom Sak, Khlong Toei Nuea, Vadhana, Bangkok 10110",Watthana,7363420.0,,Bedrooms|Bathrooms|Internal area,1|1|142.38,Floors|Towers|Year built,9|1|1986,"Yada Residential Sukhumvit 39 Prompong is an affordable condo for sale in Bangkok CBD that was built in 1986.
+This Bangkok condominium comprises a single building, having 97 apartments on 9 floors.
+Facilities at Yada Residential Bangkok condo for sale in Sukhumvit Soi 39
+Facilities in Yada Residential Bangkok condominium include","elevator
+parking
+24-hour security and 24/7 security guards and reception desk
+key card with access to a specific floor
+CCTV
+swimming pool
+gym room",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|False|False|True|False|False|False|False|False,marker marker-bts|marker marker-bts|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Phrom Phong|Asok|Sukhumvit|Asok 3 Toll Plaza|Asok 4 Toll Plaza|Asok 1 Toll Plaza,1.1 km / 6 minutes by car|2 km / 11 minutes by car|2.1 km / 13 minutes by car|3 km / 20 minutes by car|3 km / 19 minutes by car|3.1 km / 13 minutes by car,"42,893",-49.17,-41.45,6.99,-24.92
+Domus,"Soi Sukhumvit 18, Khwaeng Khlong Toei, Khet Khlong Toei",Khlong Toei,25613707.0,,Bedrooms|Bathrooms|Internal area,1|1|169.23,Floors|Towers|Project Area|Year built,"12|2|6,400 m2|2006","Domus Sukhumvit condominium for sale near BTS Asoke was built in 2006 by Gaysorn Property.
+This luxury Bangkok condo for sale near BTS Asoke comprises two buildings of 12 floors each and has 108 apartments in total.
+Domus Sukhumvit Bangkok condo is a popular apartment because of its exceptional location near the Asoke junction and quality of property management.
+Facilities at Domus Sukhumvit luxury condo for sale in Bangkok CBD","lobby
+elevator
+parking
+24-hours security and 24/7 security guards and reception desk
+key card with access to specific floor
+CCTV
+swimming pool
+gym/fitness room
+parking",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|False|False|False|False|False,marker marker-bts|marker marker-mrt|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Asok|Sukhumvit|Phrom Phong|Sukhumvit Toll Plaza|Rama 4-1 Toll Plaza|Rama 4-2 Toll Plaza,550 m / 7 minutes by foot|690 m / 9 minutes by foot|1.1 km / 7 minutes by car|1.9 km / 9 minutes by car|3.2 km / 9 minutes by car|3.2 km / 14 minutes by car,"245,490",0,4.86,3.04,5.25
+The Cadogan Private Residence,"Soi Phrom Phong, Khlong Toei Nuea, Vadhana, Bangkok 10110",Watthana,26481878.0,,Bedrooms|Bathrooms|Internal area,1|1|291.57,Floors|Towers|Project Area|Year built,"7|1|1,516 m2|2005","The Cadogan Private Residence Sukhumvit 39 condo for sale at Sukhumvit 39 in Phrom Phong was built in 2005.
+This low-rise Bangkok condo for sale comprises a single building, having 23 apartments on 7 floors. Project area: 1,516 m2.
+Facilities at The Cadogan Private Residence Sukhumvit 39
+Facilities at The Cadogan Private Residence condominium include:","elevator
+parking
+24-hours security
+24/7 security guards
+CCTV",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|True|False|False|False,marker marker-bts|marker marker-mrt|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Phrom Phong|Phetchaburi|Sukhumvit|Asok 3 Toll Plaza|Asok 4 Toll Plaza|Asok 1 Toll Plaza,1.3 km / 7 minutes by car|1.9 km / 11 minutes by car|2.3 km / 14 minutes by car|2.5 km / 20 minutes by car|2.5 km / 20 minutes by car|2.5 km / 14 minutes by car,"128,963",0,1.09,4.49,13.95
+Wattana Suite,"Soi Ruam Chai, Khlong Tan Nuea, Vadhana, Bangkok 10110",Watthana,10162998.0,,Bedrooms|Bathrooms|Internal area,1|1|165.83,Floors|Towers|Project Area|Year built,"8|1|2,204 m2|2004","Wattana Suite Sukhumvit 15 Asoke is a condo for sale in Bangkok located near BTS and NIST International school
+Wattana Suite condo for sale in Bangkok was developed in 2004.
+This Bangkok condominium comprises a single building, having 56 units on 8 floors.
+Wattana Suite is popular among people working in Sukhumvit and Asoke area and having their kids studying in NIST International School on Sukhumvit 15.
+Facilities at Wattana Suite Sukhumvit 15 Asoke
+Facilities at Wattana Suite include:","lobby
+elevator
+parking
+24-hours security and 24/7 security guards and reception desk
+key card with access to a specific floor
+CCTV
+swimming pool
+gym/fitness room
+sauna
+shop on-premises",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|False|False|False|False|False,marker marker-bts|marker marker-mrt|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Nana|Sukhumvit|Phetchaburi|Sukhumvit Toll Plaza|Phetchaburi Toll Plaza|Asok 2 Toll Plaza,910 m / 8 minutes by car|930 m / 3 minutes by car|1 km / 6 minutes by car|1.5 km / 9 minutes by car|1.7 km / 11 minutes by car|1.8 km / 8 minutes by car,"95,901",0,4.97,4.58,-3.94
+The Excel Hideaway Sukhumvit 71,"144 Soi Mi Suwan 3, Lane 10, Khwaeng Phra Khanong Nuea, Khet Watthana",Watthana,2778215.0,,Bedrooms|Bathrooms|Internal area,1|1|34.62,Towers,1,"The Excel Hideaway Sukhumvit 71 cheap Bangkok condominium was developed by All Inspire Development PCL in 2021.
+This Bangkok condominium comprises 3 buildings of 8 floors each and has 672 cheap apartments in total.
+Project size: 5-3-15 Rai
+Apartment types","1 - 2 bedrooms
+area: 27 - 50 sqm",,,marker marker-expressway|marker marker-bts|marker marker-bts|marker marker-bts|marker marker-expressway|marker marker-expressway,Phra Khanong Toll Plaza|Phra Khanong|On Nut|Ekkamai|At Narong 2 Toll Plaza|At Narong 1 Toll Plaza,940 m / 1 minute by car|1.5 km / 9 minutes by car|2 km / 12 minutes by car|2.4 km / 13 minutes by car|2.8 km / 18 minutes by car|2.9 km / 8 minutes by car,"81,746",0,10.32,5.28,8.11
+D.S. Tower 1 Sukhumvit 33,"31 Soi Phrom Chit, Khwaeng Khlong Tan Nuea, Khet Watthana",Watthana,22502550.0,,Bedrooms|Bathrooms|Internal area,1|1|358.76,Floors|Towers|Project Area|Year built,"38|2|7,088 m2|1990",D.S. Tower 1 Sukhumvit 33 condo for sale in Bangkok in Phrom Phong was built in 1990.,"This Bangkok condo for sale in Sukhumvit 33 comprises 2 buildings having 84 apartments on 38 floors
+If you have a larger family or you prefer a bigger apartment in a quiet and central location in Asoke or Phrom Phong, then this Bangkok condominium is exactly what you need.
+Apartment types",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|False|False|True|False|False,marker marker-bts|marker marker-bts|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Phrom Phong|Asok|Sukhumvit|Asok 3 Toll Plaza|Asok 4 Toll Plaza|Asok 1 Toll Plaza,890 m / 4 minutes by car|1.5 km / 9 minutes by car|1.6 km / 12 minutes by car|2.6 km / 20 minutes by car|2.6 km / 19 minutes by car|2.6 km / 13 minutes by car,"92,151",0,2.22,3.33,-5.54
+Hyde Sukhumvit 11,"No27, ซอย สุขุมวิท 11 แขวง คลองเตยเหนือ เขตวัฒนา",Watthana,7500000.0,,Bedrooms|Bathrooms|Internal area,1|1|34.89,Towers,1,Thgis condo in Nana on high floor is available at Hyde Sukhumvit 11 condominium located near Bumrungrad international hospital. This apartment is a new flat.,"1-bedroom, 1-bathroom
+34.89 Sq M
+high floor (20+)
+facing direction - East
+1 car parking slot
+balcony
+partially furnished
+fully equipped kitchen with refrigerator and washing machine",Parking|24-hours Security|Swimming Pool|Garden / BBQ,True|True|True|True,,,,"180,795",0,-3.01,4.54,-14.93
+Siam Penthouse 1,"51 Sukhumvit Rd, Khwaeng Khlong Toei, Khet Khlong Toei",Khlong Toei,29000000.0,,Bedrooms|Bathrooms|Internal area,3|3|309,Floors|Towers|Year built,10|4|1982,This Sukhumvit condo is a penthouse duplex located in Siam Penthouse 1 condominium on Sukhumvit 8 near BTS Nana,"unique large penthouse-duplex condo
+2 living rooms
+3-bedroom
+3-bathroom
+4 large balconies
+study room
+stock room
+maids' quarter
+2 terraces on the top floor of the building
+area: 309 sqm
+3 car parking slots: 2 - fixed
+facing direction: West with nice sunset views
+fully furnished
+separated and fully equipped kitchen
+full set of electrical appliances
+foreign freehold ownership quota is available",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|False|True|True|True|False|True|True|False|False|False|False,marker marker-bts|marker marker-bts|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Nana|Asok|Sukhumvit|Sukhumvit Toll Plaza|Phetchaburi Toll Plaza|Rama 4-2 Toll Plaza,360 m / 4 minutes by foot|850 m / 10 minutes by car|1.2 km / 12 minutes by car|1.2 km / 11 minutes by car|2 km / 10 minutes by car|4.1 km / 9 minutes by car,"83,590",0,-4.48,4.39,12.09
+The Address Sukhumvit 42,"Soi Barbot 1, Khwaeng Phra Khanong, Khet Khlong Toei",Khlong Toei,4500000.0,,Bedrooms|Bathrooms|Internal area,1|1|45,Floors|Towers|Project Area|Year built,"8|2|3,200 m2|2009",This affordable condo near BTS Ekkamai is available for sale now in The Address Sukhumvit 42 condominium.,"this condo features and quiet location and is easy to rent out to Japanese tenants
+1-bedroom
+1-bathroom
+low-floor in low-rise building
+facing direction: North- West
+fully furnished
+fully equipped kitchen
+full set of electrical appliances
+foreign freehold quota is available",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|False|False|False|True,marker marker-bts|marker marker-bts|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Ekkamai|Phra Khanong|Thong Lo|At Narong Toll Plaza|At Narong 2 Toll Plaza|Phra Khanong Toll Plaza,360 m / 4 minutes by foot|1.2 km / 6 minutes by car|1.2 km / 6 minutes by car|1.7 km / 12 minutes by car|2.4 km / 19 minutes by car|2.8 km / 9 minutes by car,"107,073",0,-3.71,5.47,18.73
+Mahogany Tower,"Mahogany Tower, Khwaeng Khlong Tan, Khet Khlong Toei",Khlong Toei,34000000.0,,Bedrooms|Bathrooms|Internal area,4|5|304,Floors|Towers|Year built,36|1|1994,This large condo on Sukhumvit 24 is a rare property available now in Mahogany Tower condominium in Phrom Phong,"large living room
+4-bedroom
+5-bathroom
+maids' quarter
+3 good-sized balconies
+ceilings - 2.7m
+low floor: 10-
+facing direction: West
+separated and equipped kitchen
+fully furnished
+full set of electrical appliances",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|True|False|False|False,marker marker-bts|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway|marker marker-bts,Phrom Phong|Queen Sirikit National Convention Centre|Tha Ruea 2 Toll Plaza|Tha Ruea 1 Toll Plaza|Rama 4-1 Toll Plaza|Thong Lo,1 km / 4 minutes by car|1.6 km / 8 minutes by car|1.7 km / 7 minutes by car|1.8 km / 7 minutes by car|2 km / 10 minutes by car|2.1 km / 10 minutes by car,"130,145",0,4.13,3.61,2.89
+Quattro by Sansiri,"122/2 Soi Thong Lo 4, Khwaeng Khlong Tan Nuea, Khet Watthana",Watthana,18987128.0,,Bedrooms|Bathrooms|Internal area,1|1|107.09,Floors|Towers|Project Area|Year built,"36|2|5,628 m2|2012","6, one of Thailand's leading developers.
+This luxury Bangkok condo for sale comprises 2 towers having 446 apartments on 36 floors.
+Apartment types","unit types: 1-4 bedroom
+unit sizes: 55-258 sqm",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|True|False|False|False|True,marker marker-bts|marker marker-bts|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Thong Lo|Ekkamai|Phrom Phong|At Narong Toll Plaza|Phra Khanong Toll Plaza|Tha Ruea 2 Toll Plaza,730 m / 9 minutes by foot|1.4 km / 8 minutes by car|1.8 km / 8 minutes by car|3 km / 10 minutes by car|3.8 km / 11 minutes by car|3.8 km / 13 minutes by car,"245,880",0,0.25,4.08,3.72
+Trapezo Sukhumvit 16,"298 Soi Sukhumvit 16, Khwaeng Khlong Toei, Khet Khlong Toei",Khlong Toei,5377573.0,,Bedrooms|Bathrooms|Internal area,1|1|56.57,Floors|Towers|Project Area|Year built,"7|1|1,224 m2|2014","Trapezo Sukhumvit 16 Asoke is a condo for sale in Bangkok near MRT Queen Sirikit that was built in 2014.
+This Bangkok condominium comprises a single building, having 70 units on 7 floors.
+Facilities at Trapezo Sukhumvit 16 Asoke condo for sale in Bangkok
+Facilities of Trapezo Sukhumvit 16 condo in Bangkok include:","lobby
+elevator
+parking
+24-hours security and 24/7 security guards and reception desk
+key card with access to a specific floor
+CCTV
+rooftop swimming pool
+gym room
+rooftop garden
+playground/kids' area
+parking",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|True|False|False|False|True,marker marker-mrt|marker marker-mrt|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Queen Sirikit National Convention Centre|Khlong Toei|Phrom Phong|Rama 4-1 Toll Plaza|Rama 4-2 Toll Plaza|Tha Ruea 1 Toll Plaza,1.4 km / 6 minutes by car|1.6 km / 15 minutes by car|1.6 km / 10 minutes by car|1.7 km / 10 minutes by car|1.7 km / 15 minutes by car|2.2 km / 9 minutes by car,"148,360",0,14.57,4.76,-4.85
+33 Tower,"Soi Daeng Udom, Khlong Toei Nuea, Vadhana, Bangkok 10110",Watthana,14502347.0,,Bedrooms|Bathrooms|Internal area,1|1|237.3,Floors|Towers|Year built,28|1|1996,33 Tower Sukhumvit 33 condo for sale in Bangkok near BTS Phrom Phong was constructed in 1996.,"This Bangkok apartment in Sukhumvit Soi 33 comprises a single building having 70 apartments on 28 floors.
+Apartment types:",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|False|False|False|True|False,marker marker-bts|marker marker-bts|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Phrom Phong|Asok|Sukhumvit|Asok 3 Toll Plaza|Asok 4 Toll Plaza|Asok 1 Toll Plaza,800 m / 10 minutes by foot|1.4 km / 9 minutes by car|1.5 km / 12 minutes by car|2.8 km / 19 minutes by car|2.8 km / 19 minutes by car|2.9 km / 13 minutes by car,"77,143",0,-2.22,3.78,5.65
+Via 31,"Sukhumvit 31 Yaek 2, Khlong Toei Nuea, Vadhana, Bangkok 10110",Watthana,9216320.0,,Bedrooms|Bathrooms|Internal area,1|1|90.96,Floors|Towers|Project Area|Year built,"8|1|1,828 m2|2012","Via 31 Sukhumvit 31 by Sansiri is a condo for sale in Bangkok that was developed by Sansiri PCL in 2012.
+This low-rise Bangkok condominium comprises a single building of 8 floors with 88 apartments
+Apartment types","Unit types: 1 - 3 bedrooms
+Unit sizes: 46 - 125 sqm",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|True|False|False|False|True,marker marker-bts|marker marker-bts|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Phrom Phong|Asok|Sukhumvit|Asok 3 Toll Plaza|Asok 4 Toll Plaza|Asok 1 Toll Plaza,1.4 km / 5 minutes by car|1.6 km / 9 minutes by car|1.7 km / 12 minutes by car|2.4 km / 16 minutes by car|2.4 km / 16 minutes by car|2.5 km / 10 minutes by car,"169,593",0,27.13,4.68,21.28
+Fairview Tower,"9 Soi Sukhumvit 18, Khwaeng Khlong Toei, Khet Khlong Toei",Khlong Toei,22244011.0,,Bedrooms|Bathrooms|Internal area,1|1|298.22,Floors|Towers|Project Area|Year built,"25|1|17,869 m2|1993",Fairview Tower Sukhumvit 18 condo for sale in Bangkok near BTS Asoke was developed in 1993.,"This Bangkok apartment comprises one building having 54 apartments on 25 floors.
+This condominium officially does not allow pets, but many tenants have pets in their apartments.",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|False|False|True|False|False,marker marker-bts|marker marker-mrt|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Asok|Sukhumvit|Phrom Phong|Sukhumvit Toll Plaza|Rama 4-1 Toll Plaza|Rama 4-2 Toll Plaza,730 m / 9 minutes by foot|870 m / 7 minutes by car|1.1 km / 8 minutes by car|2 km / 10 minutes by car|3 km / 10 minutes by car|3 km / 15 minutes by car,"79,251",0,-3.37,3.51,8.41
+Le Nice Ekamai,"Soi Ekkamai, Phra Khanong Nuea, Vadhana, Bangkok 10110",Watthana,6050000.0,,Bedrooms|Bathrooms|Internal area,2|2|67.21,Floors|Towers|Project Area|Year built,"8|1|4,776 m2|2010",This 2-bedroom condo on Sukhumvit 63 is available now in Le Nice Ekamai condominium in Bangkok CBD,"good-sized living room
+2-bedroom
+2-bathroom
+balcony
+facing direction: North
+low-rise building - fewer people and a quieter atmosphere
+unfurnished - fully fitted
+no electrical appliances
+ foreign freehold quota is available",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|True|True|False|False|False,marker marker-bts|marker marker-bts|marker marker-bts|marker marker-expressway|marker marker-expressway|marker marker-expressway,Ekkamai|Thong Lo|Phra Khanong|At Narong Toll Plaza|Phatthanakan 1 Toll Plaza|Phra Khanong Toll Plaza,770 m / 10 minutes by foot|1.4 km / 4 minutes by car|1.6 km / 5 minutes by car|2.6 km / 10 minutes by car|3 km / 11 minutes by car|3.2 km / 8 minutes by car,"109,475",0,-1.24,5.61,5.13
+Downtown Forty Nine,"Soi Raruen Chit, Khlong Toei Nuea, Vadhana, Bangkok 10110",Watthana,9281522.0,,Bedrooms|Bathrooms|Internal area,1|1|85.04,Floors|Towers|Project Area|Year built,"8|2|2,888 m2|2013","Downtown Forty Nine Sukhumvit 49 pet-friendly condo for sale in Bangkok was built in 2013.
+This Bangkok condominium comprises two buildings of 8 floors each and has 135 apartments in total
+Downtown Forty-Nine Bangkok condo is a pet-friendly condo near Samitivej hospital
+Apartment types","unit types: 1- 3 bedrooms
+unit sizes: 40 - 135 sqm",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|False|True|True|False|False|False|False,marker marker-bts|marker marker-bts|marker marker-mrt|marker marker-expressway|marker marker-expressway|marker marker-expressway,Phrom Phong|Thong Lo|Sukhumvit|Asok 4 Toll Plaza|Asok 1 Toll Plaza|Rama 9 Toll Plaza,1.9 km / 9 minutes by car|2.2 km / 10 minutes by car|3 km / 17 minutes by car|4.1 km / 17 minutes by car|4.1 km / 17 minutes by car|4.6 km / 18 minutes by car,"167,071",0,9.83,4.7,10.29
+Liberty Park 2,"55/1-55/137 Soi Sukhumvit 11, Khwaeng Khlong Toei Nuea, Khet Watthana",Watthana,7663681.0,,Bedrooms|Bathrooms|Internal area,1|1|134.92,Floors|Towers|Year built,23|1|1998,"Liberty Park 2 Sukhumvit 11 condo for sale in Bangkok near BTS Nana was built in 1998.
+This Bangkok condo for sale on Sukhumvit 11 comprises a single building, having 136 apartments on 23 floors.
+Facilities at Liberty Park 2 Sukhumvit 11 condo for sale in Bangkok","elevator
+parking
+24-hour security and 24/7 security guards and reception desk
+key card with access to a specific floor
+CCTV
+swimming pool
+fitness/gym room
+squash
+garden/BBQ
+sauna
+playground
+WiFi in public areas",Elevator|Parking|24-hours Security|CCTV|Swimming Pool|Sauna|Gym|Garden / BBQ|Playground / Kid's Area|Shop on Premise|Restaurant on Premise|Wi-Fi,True|True|True|True|True|True|True|False|False|False|False|False,marker marker-bts|marker marker-expressway|marker marker-bts|marker marker-expressway|marker marker-mrt|marker marker-expressway,Nana|Sukhumvit Toll Plaza|Phloen Chit|Phetchaburi Toll Plaza|Phetchaburi|Asok 2 Toll Plaza,920 m / 12 minutes by car|1.2 km / 8 minutes by car|1.2 km / 9 minutes by car|1.3 km / 15 minutes by car|1.9 km / 10 minutes by car|2.5 km / 12 minutes by car,"71,199",0,5.31,5.16,-6.42

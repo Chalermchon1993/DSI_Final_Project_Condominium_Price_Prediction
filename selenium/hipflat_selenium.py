@@ -200,7 +200,7 @@ if __name__ == "__main__":
     # driver.get("https://www.hipflat.co.th/projects/tait-sathorn-12-tgscll")
 
     # Open main page
-    url = "https://www.hipflat.co.th/en/search/sale/condo,house,townhouse_y/TH.BM_r1/any_r2/any_p/any_b/any_a/any_w/100.6244261045141,13.77183154691727_c/12_z/list_v"
+    url = "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/any_r2/any_p/any_b/any_a/any_w/100.6244261045141,13.77183154691727_c/12_z/list_v"
     driver.get(url)
 
     # Setup wait for later
@@ -226,7 +226,7 @@ if __name__ == "__main__":
     # Iterate main pages
     while next_page:
         # Get bottons link to detail pages
-        detail_pages = driver.find_elements(By.XPATH, "//a[@class='btn btn-sm btn-link']")
+        detail_pages = driver.find_elements(By.CSS_SELECTOR, ".listing-information .btn-link")
         # Iterate each detail page
         for page in detail_pages: 
             page.click()
@@ -242,7 +242,6 @@ if __name__ == "__main__":
             # Scrap data
             if is_correct_page(driver):
                 result_df = scrap_detail(driver, show_output=False)
-            
             #Close current tab
             driver.close()
 
@@ -256,9 +255,9 @@ if __name__ == "__main__":
 
         # Save file for every page
         full_path = "D:\TDA\DSI\projects\condominium_price_prediction\selenium\scrape_data"
-        iterate_df.to_csv(f"{full_path}\\hipflat_page{detail_counter}.csv", index=False)
+        iterate_df.to_csv(f"{full_path}\\hipflat_page{page_counter}.csv", encoding='utf8', index=False)
         iterate_df = template_df.copy()
-        print(f"Completed page1 {page_counter}........")
+        print(f"Completed page {page_counter}........")
 
         # Check if next page exists then go to next page
         if is_next_page(driver):
@@ -271,6 +270,6 @@ if __name__ == "__main__":
             next_page = False
 
 
-    print(f"Completed the last page. Time to make models!!!!!!!!!!!1")
+    print(f"Completed the last page. Time to make models!!!!!!!!!!!")
 
     driver.quit()
