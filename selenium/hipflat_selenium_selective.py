@@ -193,25 +193,25 @@ def scrap_detail(driver, show_output=False):
 
 
 districts_dict = {
-    # "Bang Sue" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.SU_r2/any_p/any_b/any_a/any_w/100.52781156401632,13.819416231141265_c/14_z/list_v",
-    # "Bangkok Noi" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.BN_r2/any_p/any_b/any_a/any_w/100.46958041949495,13.7654879415643_c/14_z/list_v",
-    # "Bangkok Yai" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.BY_r2/any_p/any_b/any_a/any_w/100.47432729049152,13.738330162231323_c/14_z/list_v",
-    # "Don Mueang" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.DO_r2/any_p/any_b/any_a/any_w/100.59360815685145,13.926012259957446_c/14_z/list_v",
-    # "Huai Khwang" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.HU_r2/any_p/any_b/any_a/any_w/100.58142136980709,13.770666079379614_c/14_z/list_v",
-    # "Khlong Sam Wa" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KW_r2/any_p/any_b/any_a/any_w/100.73813178878407,13.876587903627952_c/14_z/list_v",
-    # "Lak Si" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.LS_r2/any_p/any_b/any_a/any_w/100.568662722815,13.882194328522809_c/14_z/list_v",
-    # "Lat Krabang" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.LK_r2/any_p/any_b/any_a/any_w/100.79233385994239,13.745093991400944_c/14_z/list_v",
-    # "Lat Phrao" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.LP_r2/any_p/any_b/any_a/any_w/100.60709411960012,13.82788167687477_c/14_z/list_v",
-    # "Min Buri" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.MI_r2/any_p/any_b/any_a/any_w/100.75361475220788,13.812562828206532_c/14_z/list_v",
-    # "Bueng Kum" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.BK_r2/any_p/any_b/any_a/any_w/100.64996175764422,13.812019201663777_c/14_z/list_v",
-    # "Din Daeng" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.DI_r2/any_p/any_b/any_a/any_w/100.56180275096828,13.777914075418758_c/14_z/list_v",
-    # "Dusit" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.DU_r2/any_p/any_b/any_a/any_w/100.51657256132091,13.782504558969894_c/14_z/list_v",
-    # "Khlong San" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KS_r2/any_p/any_b/any_a/any_w/100.50060006005295,13.726306733298014_c/14_z/list_v",
-    # "Prawet" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.PR_r2/any_p/any_b/any_a/any_w/100.67722277222981,13.700025924964327_c/14_z/list_v",
-    # "Bang Khae" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KA_r2/any_p/any_b/any_a/any_w/100.39284156951082,13.719329065906035_c/14_z/list_v",
-    # "Bang Khen" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KE_r2/any_p/any_b/any_a/any_w/100.62956479208981,13.869665726644843_c/14_z/list_v",
-    # "Bang Kho Laem" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KL_r2/any_p/any_b/any_a/any_w/100.50827795401229,13.700355805950991_c/14_z/list_v",
-    # "Bang Na" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.NA_r2/any_p/any_b/any_a/any_w/100.62024087286072,13.670886646005284_c/14_z/list_v",
+    "Bang Sue" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.SU_r2/any_p/any_b/any_a/any_w/100.52781156401632,13.819416231141265_c/14_z/list_v",
+    "Bangkok Noi" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.BN_r2/any_p/any_b/any_a/any_w/100.46958041949495,13.7654879415643_c/14_z/list_v",
+    "Bangkok Yai" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.BY_r2/any_p/any_b/any_a/any_w/100.47432729049152,13.738330162231323_c/14_z/list_v",
+    "Don Mueang" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.DO_r2/any_p/any_b/any_a/any_w/100.59360815685145,13.926012259957446_c/14_z/list_v",
+    "Huai Khwang" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.HU_r2/any_p/any_b/any_a/any_w/100.58142136980709,13.770666079379614_c/14_z/list_v",
+    "Khlong Sam Wa" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KW_r2/any_p/any_b/any_a/any_w/100.73813178878407,13.876587903627952_c/14_z/list_v",
+    "Lak Si" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.LS_r2/any_p/any_b/any_a/any_w/100.568662722815,13.882194328522809_c/14_z/list_v",
+    "Lat Krabang" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.LK_r2/any_p/any_b/any_a/any_w/100.79233385994239,13.745093991400944_c/14_z/list_v",
+    "Lat Phrao" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.LP_r2/any_p/any_b/any_a/any_w/100.60709411960012,13.82788167687477_c/14_z/list_v",
+    "Min Buri" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.MI_r2/any_p/any_b/any_a/any_w/100.75361475220788,13.812562828206532_c/14_z/list_v",
+    "Bueng Kum" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.BK_r2/any_p/any_b/any_a/any_w/100.64996175764422,13.812019201663777_c/14_z/list_v",
+    "Din Daeng" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.DI_r2/any_p/any_b/any_a/any_w/100.56180275096828,13.777914075418758_c/14_z/list_v",
+    "Dusit" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.DU_r2/any_p/any_b/any_a/any_w/100.51657256132091,13.782504558969894_c/14_z/list_v",
+    "Khlong San" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KS_r2/any_p/any_b/any_a/any_w/100.50060006005295,13.726306733298014_c/14_z/list_v",
+    "Prawet" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.PR_r2/any_p/any_b/any_a/any_w/100.67722277222981,13.700025924964327_c/14_z/list_v",
+    "Bang Khae" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KA_r2/any_p/any_b/any_a/any_w/100.39284156951082,13.719329065906035_c/14_z/list_v",
+    "Bang Khen" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KE_r2/any_p/any_b/any_a/any_w/100.62956479208981,13.869665726644843_c/14_z/list_v",
+    "Bang Kho Laem" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.KL_r2/any_p/any_b/any_a/any_w/100.50827795401229,13.700355805950991_c/14_z/list_v",
+    "Bang Na" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.NA_r2/any_p/any_b/any_a/any_w/100.62024087286072,13.670886646005284_c/14_z/list_v",
     "Bang Phlat" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.PH_r2/any_p/any_b/any_a/any_w/100.49162996962619,13.786842672656212_c/14_z/list_v",
     "Nong Khaem" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.NK_r2/any_p/any_b/any_a/any_w/100.35360838341148,13.700022884766303_c/14_z/list_v",
     "Phra Khanong" : "https://www.hipflat.co.th/en/search/sale/condo_y/TH.BM_r1/TH.BM.PK_r2/any_p/any_b/any_a/any_w/100.61230271353298,13.697100447229037_c/14_z/list_v",
@@ -248,9 +248,9 @@ districts_dict = {
 
 if __name__ == "__main__":
 
-    district = 'Bang Phlat'
+    district = 'Chom Thong'
     url = districts_dict[district]
-    start_page = 5
+    start_page = 16
 
 
     # Add options to make selenium as human
@@ -354,4 +354,7 @@ if __name__ == "__main__":
 
 
 # Note:
-# Huai Khwang stoped at page 16
+# Huai Khwang start at page 16 # Done
+# Bang Phlat start at page 30 # Done
+# Phra Nakhon start at page 5 # Done
+# Chom Thong start at page 16 # Done
